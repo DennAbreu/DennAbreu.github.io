@@ -118,15 +118,15 @@ function drawing() {
     //Flames Behind Plane
     context.fillStyle = "orange";
     context.beginPath();
-    context.moveTo(300, 320); //310
-    context.lineTo(250, 300); //290
-    context.lineTo(290, 330) //320
-    context.lineTo(240, 330); //320
-    context.lineTo(270, 340); //330
-    context.lineTo(220, 340); //330
-    context.lineTo(280, 350); //340
-    context.lineTo(245, 350); //350
-    context.lineTo(300, 365); //355
+    context.moveTo(300, 320);
+    context.lineTo(250, 300);
+    context.lineTo(290, 330)
+    context.lineTo(240, 330);
+    context.lineTo(270, 340);
+    context.lineTo(220, 340);
+    context.lineTo(280, 350);
+    context.lineTo(245, 350);
+    context.lineTo(300, 365);
     context.fill();
     context.stroke();
 }
