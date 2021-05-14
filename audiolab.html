@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Lab</title>
+    <link rel ="stylesheet" href = "css/audiolab.css">
+    
+    
+</head>
+<body>
+    
+    <audio id="aud1">
+        <source src="/assets/audiolab/Ritchrd_Paris.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="aud2">
+        <source src="/assets/audiolab/Shikamaru_Theme.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="aud3">
+        <source src="/assets/audiolab/Nujabes_CountingStars.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="aud4">
+        <source src="/assets/audiolab/Radiohead_Little.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio id="aud5">
+        <source src="/assets/ Waters_GypsyWomen.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+<table>
+   
+    <tr><td><h2>Music Player</h2></td></tr>
+    <tr><td>1: <button onclick="playAudio1()" type ="button">Play</button><button onclick="stopAudio1()" type ="button">Stop</button></td></tr>
+    <tr><td>2: <button onclick="playAudio2()" type ="button">Play</button><button onclick="stopAudio2()" type ="button">Stop</button></td></tr>
+    <tr><td>3: <button onclick="playAudio3()" type ="button">Play</button><button onclick="stopAudio3()" type ="button">Stop</button></td></tr>
+    <tr><td>4: <button onclick="playAudio4()" type ="button">Play</button><button onclick="stopAudio4()" type ="button">Stop</button></td></tr>
+    <tr><td>5: <button onclick="playAudio5()" type ="button">Play</button><button onclick="stopAudio5()" type ="button">Stop</button></td></tr>
+   
+</table>
+
+<br><center><a href="index.html" class="button">HomePage</a>
+</center>
+<script>
+    var s1 = document.getElementById("aud1");
+    var s2 = document.getElementById("aud2");
+    var s3 = document.getElementById("aud3");
+    var s4 = document.getElementById("aud4");
+    var s5 = document.getElementById("aud5");
+   
+    function playAudio1(){
+        s1.play();
+    }
+
+    function stopAudio1(){
+        s1.pause();
+    }
+
+    function playAudio2(){
+        s2.play();
+    }
+
+    function stopAudio2(){
+        s2.pause();
+    }
+
+    function playAudio3(){
+        s3.play();
+    }
+
+    function stopAudio3(){
+        s3.pause();
+    }
+
+    function playAudio4(){
+        s4.play();
+    }
+
+    function stopAudio4(){
+        s4.pause();
+    }
+
+    function playAudio5(){
+        s5.play();
+    }
+
+    function stopAudio5(){
+        s5.pause();
+    }
+
+    </script>
+</body>
+</html>

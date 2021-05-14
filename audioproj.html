@@ -1,0 +1,38 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/audioproj.css">
+
+
+        <title>Audio Assignment</title>
+    </head>
+    <body>
+        <audio id = "dennisAudio" src="/assets/voice/Dennis_Copyright.mp3" type="audio/mpeg">
+        </audio>
+        <audio id = "help" src="/assets/voice/help.mp3" type="audio/mpeg">
+        </audio>
+        
+        <div class = "instructions">
+            <h2>Instructions</h2>
+            <ul>
+                <li>Say "Help" for instructions.</li>
+                <li>Say "About" to hear about me!</li>
+                <li>Press the "Speak" button below to begin speech recognition.</li>
+                <li>Say the name of a fruit. The available fruits are "apple", "kiwi", "lemon", "mango", and "grape".</li>
+                
+            </ul>
+        </div>
+
+        <canvas id="mycanvas" width="800" height="600"></canvas>
+        <center>
+            <br></b><button id ="speakBtn" type = "button">Listen</button>
+            <br><br><a href="index.html" class="button">HomePage</a>
+        </center>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.5.0/annyang.min.js"></script>
+        <script src = "/js/audioProj.js"></script>
+
+    </body>
+</html>

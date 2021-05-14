@@ -1,0 +1,80 @@
+body {
+    background: lightblue url("../assets/indexBG.jpg") no-repeat fixed center;
+}
+
+#main {
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 600px;
+    height: 800px;
+    box-shadow: 0px 5px 10px 0px black;
+    text-decoration: none;
+}
+
+#gitBtn {
+    margin-top: 20%;
+    border-radius: 10px;
+    height: 3rem;
+    width: 7rem;
+    background-color: white;
+    color: #745fd4
+}
+
+#gitBtn:hover {
+    background-color: #cc85d3;
+    color: white;
+
+}
+
+.header {
+    margin: auto;
+    width: 85%;
+    padding: 15px;
+
+}
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "labs assignments";
+    place-content: center;
+    padding-left: 2rem;
+
+}
+
+table {
+    border: 3px solid black;
+    width: 236;
+    text-align: center;
+
+}
+
+th {
+    font-size: 20px;
+    color: white;
+    background-color: #745fd4;
+}
+
+td {
+    padding-bottom: 1rem;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+tr:hover {
+    color: white;
+    background-color: #cc85d3;
+
+}
