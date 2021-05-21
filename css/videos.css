@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "post1 post2 post3";
+    place-content: center;
+}
+
+body>.post1 {
+    grid-area: post1;
+    place-self: center stretch;
+}
+
+body>.post2 {
+    grid-area: post2;
+    place-self: center stretch;
+}
+
+body>.post3 {
+    grid-area: post3;
+    place-self: center stretch;
+}
