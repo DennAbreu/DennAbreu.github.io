@@ -14,15 +14,16 @@
     transform: translateY(2px);
 }
 
-body {
+/* body {
     display: flex;
     place-items: center;
     margin: auto;
     margin-top: -300;
     width: 50%;
-    /* padding: 10px; */
+    
 }
 
+*/
 /* table {
     border: 1px solid black;
 } */
