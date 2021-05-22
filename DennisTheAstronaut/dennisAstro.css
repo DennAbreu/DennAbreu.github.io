@@ -15,12 +15,18 @@
 }
 
 body {
+
     display: flex;
     place-items: center;
-    margin: auto;
-    margin-top: -300;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin-top: -300; */
     width: 50%;
 
+}
+
+input {
+    min-width: 1px;
 }
 
 /* table {
