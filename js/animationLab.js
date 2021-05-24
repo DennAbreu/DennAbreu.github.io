@@ -14,7 +14,7 @@ Scene.start = function () {
     Scene.canvas = document.getElementById("mycanvas");
     Scene.canvasContext = Scene.canvas.getContext("2d");
 
-    // Seup the number to be displayed.
+    // Setup the number to be displayed.
     Scene.sprite = numbers;
 
     // Attach the image to be used for the sprite.
