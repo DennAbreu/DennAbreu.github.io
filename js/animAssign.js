@@ -1,6 +1,6 @@
 "use strict";
 
-let start;
+
 
 var Scene = {
     canvas: undefined,
